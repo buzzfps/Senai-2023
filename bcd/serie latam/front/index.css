@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background-image: url(./assets/meta_gc.png);
+    
+}
+
+#seriec{
+    width: 10vw;
+}
+
+header {
+    height: 30vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 23px;
+    box-shadow: 10px 10px 0px rgb(4, 32, 156);
+    background-color: rgba(72, 84, 138, 0.582);
+}
+
+.rotulos {
+    width: 100%;
+    gap: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#cadastro{
+    gap: 79px;
+}
+
+label {
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+input {
+    max-width: 160px;
+    margin: 5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: bold;
+    color: #3560a0;
+}
+
+main {
+    height: 125vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 5px;
+    background-color: rgb(72, 84, 138);
+    margin-top: 50px;
+    box-shadow: 10px 10px 0px rgb(4, 32, 156);
+    border-radius: 23px;
+}
+main::-webkit-scrollbar {
+    width: 10px;
+}
+main table {
+    width: 100%;
+}
+
+main table tr td {
+    text-align: center;
+}
+
+button {
+    border: none;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: bold;
+    padding: 5px;
+    color: red;
+    cursor: pointer;
+}
+
+input[type=submit] {
+    border: none;
+    background-color: #3560a0;
+    border-radius: 5px;
+    font-size: small;
+    font-weight: bold;
+    padding: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+table{
+    border-spacing: 10px;;
+}
+th{
+    text-align: center;
+    color: white;
+}
+td{
+    text-align: center;
+    color: white
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#li{
+    display: flex;
+    align-items: center;
+    width: 23vw;
+    height: 7vh;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-right: 100px;
+}
+li:hover{
+    cursor: pointer;
+    transition-duration: 0.5s;
+    color: chartreuse;
+}
+#clinica{
+    width: 18vw;
+    margin-left: 15vw;
+    margin-top: 15vh;
+}
+#lorem{
+    width: 65vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
