@@ -22,8 +22,8 @@ export default function App() {
       <TextInput style={styles.input} placeholder="Insira o Comprimento" value={comprimento} onChangeText={ (val) => setComprimento(Number(val))}/>
       <TextInput style={styles.input} placeholder="Insira a Corrente" value={corrente} onChangeText={ (val) => setCorrente(Number(val))}/>
       <Button style={styles.button} title="Calcular" onPress={() => somar()}/>
-      <Text style={styles.text}>O resultado para 220v é de: {resultado220.toFixed(2)}</Text>
-      <Text style={styles.text}>O resultado para 127v é de: {resultado127.toFixed(2)}</Text>
+      <Text style={styles.text}>O resultado para 220v é de: {resultado220.toFixed(2)} mm</Text>
+      <Text style={styles.text}>O resultado para 127v é de: {resultado127.toFixed(2)} mm</Text>
     </View>
   );
 }
