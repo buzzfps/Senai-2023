@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Schibsted Grotesk', sans-serif;
+}
+p{
+    color: white;
+}
+body{
+    background-color: #9a7dddee;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#aquino{
+    background-image: url('./assets/clima.webp');
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 23px;
+    gap: 23px;
+}
+#info{
+    transition: 2s;
+    width: 13vw;
+    height: 21vh;
+    background-color: rgba(38, 111, 175, 0.562);
+    display: flex;
+    margin-top: 23px;
+    border-radius: 23px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#nomecidade{
+    border-style: groove;
+    padding: 13px;
+    border-radius: 4px;
+}
+#pesquisar{
+    padding: 8px;
+    border-radius: 7px;
+    border-style: groove;
+}
+#pesquisar:hover{
+    cursor: pointer;
+    transition: 1.2s;
+    background-color: azure;
+}
