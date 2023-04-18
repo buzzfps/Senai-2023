@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/login.css">
+    <title>Ifood Aquino Rego</title>
+</head>
+<body>
+    <header>
+        <p>Ifood AquinoRego</p>
+        <img src="../assets/restaurante.png" alt="">
+    </header>
+
+    <main>
+        <div>
+            <div class="login">
+                <p>Login</p>
+                <input type="email" placeholder="Digite seu Email:" required id="email">
+                <input type="password" placeholder="Digite a sua Senha:" required id="senha"> 
+                <button onclick="autenticar()" id="logar">Login</button>
+            </div>
+        </div>
+        <div>
+            <div id="cadastro">
+                <p>cadastro</p>
+                <input type="text" placeholder="Digite Seu Nome:" required id="nome">
+                <input type="text" placeholder="Digite Seu Telone:" required id="telefone">
+                <input type="email" placeholder="Digite seu Email:" required id="emailCadastro">
+                <input type="password" placeholder="Digite a sua Senha:" required id="senhaCadastro">
+                <button onclick="cadastro()" id="logar">Cadastrar</button>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="../scripts/login.js"></script>
+</html>

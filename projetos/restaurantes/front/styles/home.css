@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'DynaPuff', cursive;
+}
+body{
+    background-image: url("../assets/background.webp");
+}
+p{
+    font-family: 'DynaPuff', cursive;
+    color: white
+}
+header{
+    width: 100%;
+    background-color: rgb(51, 39, 116);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+header img{
+    width: 7vw;
+}
+header p{
+    margin-top: 23px;
+}

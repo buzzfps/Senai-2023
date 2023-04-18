@@ -1,7 +1,7 @@
-const express = require('express');
-const cors = require('cors');
+const express = require('express')
+const cors = require('cors')
 
-const router = require('./src/routes/avlfisica.js')
+const router = require('./src/routes/funcionario')
 
 const app = express()
 app.use(express.json())
