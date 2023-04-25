@@ -14,6 +14,5 @@ class Veiculos{
 }
 }
 const veiculos = new Veiculos ('ABC-321', "S15", "nissan", 1999, 45.45)
-
 console.log(veiculos)
 
