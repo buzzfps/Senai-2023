@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+header{
+    width: 100%;
+    height: 12vh;
+    background-color: floralwhite;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    border-bottom: red solid;
+}
+header img{
+    width: 100px;
+}
+header p{
+    font-size: 50px;
+    color: red;
+    padding: 23px;
+}
+main{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+main p{
+    font-size: 40px;
+    text-align: center;
+}
+main td{
+    width: 100px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+main th{
+    width: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+th{
+    border-color: red;
+}
+#navegacao{
+    width: 100%;
+    height: 4vh;
+    background-color: red;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    gap: 30vw;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#limpardados{
+    width: 7vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(204, 61, 61);
+    margin-top: 23px;
+    cursor: pointer;
+}
+#enviarpizza{
+    width: 5vw;
+    height: 2.3vh;
+    background-color: red;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+}
+#enviarpizza:hover{
+    cursor: pointer;
+}
+.modal{
+    position: absolute;
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 139vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corpoModal{
+    border: 1px solid #000;
+    top: 45vh;
+    width: 50vw;
+    height: 50vh;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+table{
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+

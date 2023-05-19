@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+header{
+    width: 100%;
+    height: 12vh;
+    background-color: floralwhite;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    border-bottom: red solid;
+}
+header img{
+    width: 100px;
+}
+header p{
+    font-size: 50px;
+    color: red;
+    padding: 23px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+#navegacao{
+    width: 100%;
+    height: 4vh;
+    background-color: red;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    gap: 30vw;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#limpardados{
+    width: 7vw;
+    height: 5vh;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(204, 61, 61);
+    margin-top: 23px;
+    cursor: pointer;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    background-color: #ffffff6a;
+    gap: 20px;
+}
+.card{
+    background-color: #fff;
+    width: 50%;
+    gap: 5px;
+    padding: 10px;
+    border-bottom: 5px #ff3e3e solid;
+}
+.card p{
+    font-size: 23px;
+}
+
+

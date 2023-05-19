@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pedidos.css">
+    <link rel="shortcut icon" href="../assets/cropped-favicon.png" type="image/x-icon">
+    <title>Carrinho</title>
+</head>
+<body onload="prencherCard()">
+    <header>
+        <img src="../assets/cropped-favicon.png" alt="pizza icon">
+        <p>Pizzaria Aquino</p>
+    </header>
+    <div id="navegacao">
+        <a href="../cardapio/cardapio.html">Cardapio</a>
+        <a href="../carrinho/carrinho.html">Carrinho</a>
+        <a href="../pedidos/pedidos.html">Pedidos</a>
+    </div>
+    <main>
+        <p>Pedidos</p>
+        <div id="container">
+            
+        </div>
+        <button onclick="limparDados()" id="limpardados">Limpar pedidos</button>
+    </main>
+</body>
+<script src="pedidos.js"></script>
+</html>

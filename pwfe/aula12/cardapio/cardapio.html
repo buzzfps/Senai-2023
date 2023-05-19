@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cardapio.css">
+    <link rel="shortcut icon" href="../assets/cropped-favicon.png" type="image/x-icon">
+    <title>Cardapio</title>
+</head>
+<body onload="preecherTabela()">
+    <header>
+        <img src="../assets/cropped-favicon.png" alt="pizza icon">
+        <p>Pizzaria Aquino</p>
+    </header>
+    <div id="navegacao">
+        <a href="../cardapio/cardapio.html">Cardapio</a>
+        <a href="../carrinho/carrinho.html">Carrinho</a>
+        <a href="../pedidos/pedidos.html">Pedidos</a>
+    </div>
+    <main>
+        <p>Cardápio</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Nome</th>
+                    <th>Preço</th>
+                    <th>Detalhes</th>
+                </tr>
+            </thead>
+            <tbody id="tcorpo">
+            </tbody>
+        </table>
+    </main>
+    
+    <div id="detalhes" class="modal oculto">
+        <div class="corpoModal">
+            <div>
+            <h1 id="fecar">Detalhes</h1>
+            <p id="btFechar">X</p>
+            </div>
+            <p id="id"></p>
+            <p id="nome"></p>
+            <p id="descricao"></p>
+            <p id="preco"></p>
+            <p id="linha"></p>
+            <button onclick="cadastarLocal()" id="addcar">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+</body>
+<script src="cardapio.js"></script>
+</html>

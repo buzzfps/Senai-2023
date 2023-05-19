@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="carrinho.css">
+    <link rel="shortcut icon" href="../assets/cropped-favicon.png" type="image/x-icon">
+    <title>Carrinho</title>
+</head>
+<body onload="prencherTabela()">
+    <header>
+        <img src="../assets/cropped-favicon.png" alt="pizza icon">
+        <p>Pizzaria Aquino</p>
+    </header>
+    <div id="navegacao">
+        <a href="../cardapio/cardapio.html">Cardapio</a>
+        <a href="../carrinho/carrinho.html">Carrinho</a>
+        <a href="../pedidos/pedidos.html">Pedidos</a>
+    </div>
+    <main>
+        <p>Carrinho</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>id</th>
+                    <th>Nome</th>
+                    <th>Preço</th>
+                    <th>Enviar Pedido</th>
+                </tr>
+            </thead>
+            <tbody id="tcorpo">
+            </tbody>
+        </table>
+        <button id="limpardados" onclick="limparDados()">Limpar Carrinho</button>
+    </main>
+</body>
+<script src="carrinho.js"></script>
+</html>
