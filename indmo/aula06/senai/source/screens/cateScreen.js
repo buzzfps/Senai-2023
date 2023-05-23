@@ -6,7 +6,7 @@ import Cursos from '../mocks/mocks';
 export default function ClientesScreen({ navigation }) {
 
     const abrirDetalhes = (dados) => {
-        navigation.navigate('Detalhes', { dados });
+        navigation.navigate('Cursos', { dados });
     }
 
     return (

@@ -2,6 +2,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import CateScreeen from './source/screens/cateScreen';
 import DetalhesScreen from './source/screens/detalhesScreen';
+import DetalhesCursosScreen from './source/screens/detalhescursos';
 
 const Stack = createNativeStackNavigator();
 
@@ -19,8 +20,8 @@ export default function App() {
           options={{ title: 'Cursos' }} />
         <Stack.Screen
           name="Detalhes"
-          component={DetalhesScreen}
-          options={{ title: 'Cursos' }} />
+          component={DetalhesCursosScreen}
+          options={{ title: 'Detalhes' }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

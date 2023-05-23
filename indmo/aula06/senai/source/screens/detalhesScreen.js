@@ -7,7 +7,7 @@ export default function ClientesScreen({ navigation, route }) {
     const dados = route.params.dados.cursos
 
     const abrirDetalhes = (dados) => {
-        navigation.navigate('Cursos', { dados });
+        navigation.navigate('Detalhes', { dados });
     }
 
     return (
