@@ -9,4 +9,3 @@ function carregar() {
     perfil.endereco.value = dados[0].endereco
     perfil.telefones.value = dados[0].telefone;
 }
-
