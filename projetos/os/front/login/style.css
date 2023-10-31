@@ -1,0 +1,34 @@
+@import url(../style.css);
+
+body {
+    background-color: rgb(130, 172, 172);
+}
+
+#login {
+    width: 40vw;
+    height: 30vh;
+    background-color: rgb(140, 201, 201);
+    border-radius: 10px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#formCadastro {
+    width: 90vw;
+    height: 15vh;
+    background-color: rgb(140, 201, 201);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 16rem;
+}
+
+.oculto {
+    display: none;
+}
